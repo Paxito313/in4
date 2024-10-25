@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mostrarItemsFragment">
+
+    <fragment
+        android:id="@+id/mostrarItemsFragment"
+        android:name="com.example.in4.ui.mostraritems.MostrarItemsFragment"
+        android:label="Mostrar Items"
+        tools:layout="@layout/fragment_mostrar_items" />
+
+</navigation>
